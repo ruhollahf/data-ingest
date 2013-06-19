@@ -1,4 +1,4 @@
-
+(ns data-ingest.core)
 
 (use 'incanter.core
      'clojure.java.jdbc)
@@ -7,7 +7,7 @@
 
 (def db {:classname "com.microsoft.jdbc.sqlserver.SQLServerDriver"
                :subprotocol "sqlserver"
-               :subname "//172.29.75.47:1433;database=ODS;user=OSDUser;password=ReadOnly"
+               :subname "//172.29.75.47:1433;database=ODS;user=ODSUser;password=ReadOnly"
 })
 
 ;Below code demos how to execute a simple sql select query and print it to console

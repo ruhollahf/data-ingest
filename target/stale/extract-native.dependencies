@@ -1,1 +1,1 @@
-([:dependencies ([org.clojure/clojure "1.5.1"] [incanter/incanter-core "1.5.1"] [org.clojure/java.jdbc "0.2.3"] [sqljdbc4/sqljdbc4 "4.0"])])
+([:dependencies ([org.clojure/clojure "1.5.1"] [incanter/incanter-core "1.5.1"] [org.clojure/java.jdbc "0.2.3"])])
