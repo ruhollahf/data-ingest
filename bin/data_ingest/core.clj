@@ -1,10 +1,10 @@
 
 
 (use 'incanter.core
-     'clojure.data.json)
+     'clojure.java.jdbc)
 
 
-(use 'clojure.java.jdbc)
+
 (def db {:classname "com.microsoft.jdbc.sqlserver.SQLServerDriver"
                :subprotocol "sqlserver"
                :subname "//172.29.75.47:1433;database=ODS;user=OSDUser;password=ReadOnly"
